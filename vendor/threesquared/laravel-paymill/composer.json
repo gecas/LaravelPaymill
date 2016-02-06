@@ -1,0 +1,29 @@
+{
+    "name": "threesquared/laravel-paymill",
+    "description": "Laravel wrapper for the Paymill API",
+    "keywords": ["laravel", "package", "paymill", "payments", "billing"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Speakman",
+            "email": "ben@3sq.re"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "paymill/paymill": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Threesquared\\LaravelPaymill\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
